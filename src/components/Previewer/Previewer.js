@@ -1,6 +1,11 @@
 import React from "react";
-import './Previewer.css'
+import "./Previewer.css";
 
-const previewer = props => <p className='Previewer'>Previewer Component</p>;
+const previewer = props => (
+  <div
+    className="Previewer"
+    dangerouslySetInnerHTML={{ __html: props.markedDownText }}
+  />
+);
 
 export default previewer;
