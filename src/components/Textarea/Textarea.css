@@ -1,0 +1,8 @@
+.Textarea {
+  width: 49.5%;
+  height: 500px;
+  padding: 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
